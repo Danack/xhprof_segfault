@@ -18,4 +18,4 @@ php-fpm \
   -c ./php_empty.ini
 ```
 
-The child 
+The worker processes should be continually created and instantly segfaulting.

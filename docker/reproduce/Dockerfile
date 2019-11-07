@@ -17,4 +17,4 @@ RUN dpkg -i /root/tideways-xhprof_5.0.1_amd64.deb
 
 RUN cp /usr/lib/tideways_xhprof/tideways_xhprof-7.3.so /usr/local/lib/php/extensions/no-debug-non-zts-20180731/tideways_xhprof-7.3.so
 
-CMD tail -f /var/www/html/readme.MD
+CMD tail -f -n 1000 /var/www/html/readme.MD
